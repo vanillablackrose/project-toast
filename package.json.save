@@ -14,14 +14,15 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-feather": "2.0.10",
-    "rimraf": "^5.0.1",
-    "yarn": "^1.22.22"
+    "rimraf": "^5.0.1"
   },
   "scripts": {
     "predev": "rimraf .parcel-cache dist",
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html",
-    "new-component": "new-component"
+    "new-component": "new-component",
+"rimraf": "./node_modules/rimraf/bin.js"TZ
+	
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "staticFiles": {
